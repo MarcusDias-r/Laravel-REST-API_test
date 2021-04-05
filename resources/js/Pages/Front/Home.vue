@@ -30,6 +30,7 @@
                         <div class="banner_title">
                             Opening Hours
                         </div>
+                   
                         <div class="banner_desc">
                             <div class="banner-line">
                                 <span>Monday-Friday</span>

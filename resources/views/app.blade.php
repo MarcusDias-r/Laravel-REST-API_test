@@ -14,7 +14,7 @@
         <!-- Styles -->
         {{-- <link rel="stylesheet" href="{{ mix('css/app.css') }}"> --}}
         <link rel="stylesheet" href="{{ asset('css/template.css') }}">
-
+        <script src="{{asset('js/template.js')}}"></script>
         <!-- Scripts -->
         @routes
         <script src="{{ mix('js/app.js') }}" defer></script>

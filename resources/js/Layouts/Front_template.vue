@@ -8,7 +8,14 @@
                 </a>
             </div>
             <div class="menu">
+                   
                 <nav>
+                     <div class="menuMobile">
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                        <div class="mm_line"></div>
+                    </div>
+                    
                     <ul>
                         <li class="active"><a href="">Home</a></li>
                         <li><a href="">Blog</a></li>
@@ -20,7 +27,7 @@
                     </ul>
                 </nav>
             </div>
-        </div>
+        </div> 
     </header>
     <main>
         <slot/>

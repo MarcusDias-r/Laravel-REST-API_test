@@ -20213,7 +20213,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 
-var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<header><div class=\"container\"><div class=\"logo\"><a href=\"\"><img src=\"/images/logo.png\"></a></div><div class=\"menu\"><nav><ul><li class=\"active\"><a href=\"\">Home</a></li><li><a href=\"\">Blog</a></li><li><a href=\"\">Pages</a></li><li><a href=\"\">Departaments</a></li><li><a href=\"\">Timetable</a></li><li><a href=\"\">Gallery</a></li><li><a href=\"\">Contact</a></li></ul></nav></div></div></header>", 1);
+var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<header><div class=\"container\"><div class=\"logo\"><a href=\"\"><img src=\"/images/logo.png\"></a></div><div class=\"menu\"><nav><div class=\"menuMobile\"><div class=\"mm_line\"></div><div class=\"mm_line\"></div><div class=\"mm_line\"></div></div><ul><li class=\"active\"><a href=\"\">Home</a></li><li><a href=\"\">Blog</a></li><li><a href=\"\">Pages</a></li><li><a href=\"\">Departaments</a></li><li><a href=\"\">Timetable</a></li><li><a href=\"\">Gallery</a></li><li><a href=\"\">Contact</a></li></ul></nav></div></div></header>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_front_footer = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("front-footer");
