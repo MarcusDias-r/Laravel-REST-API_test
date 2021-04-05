@@ -91,7 +91,7 @@ class ActivitiesController extends Controller
             ],404);
         }
     }
-
+    
     public function getActivityById($activity_id)
     {
         try{
@@ -119,7 +119,7 @@ class ActivitiesController extends Controller
 
         }
     }
-
+    // UPDATE METHOD IN ACTIVITY
     public function activityUpdate(Request $request, $activityUpdate)
     {
      
@@ -144,7 +144,7 @@ class ActivitiesController extends Controller
         }
 
     }
-
+    // UPDATE METHOD IN ITEM
     public function itemUpdate(Request $request, $activity_id, $item_id)
     {
         try{
@@ -170,7 +170,7 @@ class ActivitiesController extends Controller
 
         }
     }
-
+    //DELETE METHOD IN ACTIVITY
     public function activityDestroy($activity_id)
     {
 
@@ -195,7 +195,7 @@ class ActivitiesController extends Controller
         }
 
     }
-
+    //DELETE METHOD IN ITEM
     public function itemDestroy($activity_id, $item_id)
     {
 
